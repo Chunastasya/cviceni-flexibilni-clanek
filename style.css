@@ -37,3 +37,21 @@ h2 {
 }
 
 /* Zde je místo pro vaše styly.*/
+
+.article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+.article__image {
+  flex: 1 1 40%;
+  max-width: 300px;
+  min-width: 250px;
+}
+
+.article__text {
+  flex: 1 1 60%;
+}
